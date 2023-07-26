@@ -15,7 +15,7 @@ numberButtons.forEach(button => {
 		appendNumber(button.textContent);
 		updateScreen();
 	});
-});  
+});   
 
 operatorButtons.forEach(button => {
 	button.addEventListener('click', () => {
