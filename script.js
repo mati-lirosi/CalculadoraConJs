@@ -19,7 +19,7 @@ numberButtons.forEach(button => {
 
 operatorButtons.forEach(button => {
 	button.addEventListener('click', () => {
-		selectOperation(button.textContent);
+		selectOperation(button.textContent); 
 		updateScreen();
 	});
 });
